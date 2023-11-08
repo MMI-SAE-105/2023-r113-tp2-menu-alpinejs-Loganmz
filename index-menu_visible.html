@@ -23,6 +23,19 @@
             <li><a href="#">item 3</a></li>
         </ul>
       </nav>
+      <dl x-data="{open: false}">
+        <dt aria-controls="main acc" @click="open = ! open" >Lorem.</dt>
+        <dd id="main acc" x-show="open">Lorem ipsum dolor sit amet.</dd>
+      </dl>
+      <dl x-data="{open: false}">
+        <dt aria-controls="main acc" @click="open = ! open" >Alias.</dt>
+        <dd id="main acc" x-show="open">Natus in autem perspiciatis unde?</dd>
+      </dl>
+      <dl x-data="{open: false}">
+        <dt aria-controls="main acc" @click="open = ! open">Maiores?</dt>
+        <dd id="main acc" x-show="open">Ea veniam assumenda aspernatur veritatis?</dd>
+      </dl>
+
     </header>
     <!-- h2>lorem2^p>lorem -->
     <h2>Lorem,  ipsum.</h2>
