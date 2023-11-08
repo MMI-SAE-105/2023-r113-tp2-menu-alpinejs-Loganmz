@@ -8,5 +8,13 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    background: #000;
+    display: grid;
+    place-content: center;
+    
     
 }
+.noscroll
+.noscroll body {
+     overflow: hidden;
+    }
